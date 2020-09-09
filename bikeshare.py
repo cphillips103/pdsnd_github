@@ -252,7 +252,7 @@ def trip_duration_stats(df, city):
 
     # Print travel time stats calculation.
     print("Trip Duration Stats:\n")
-    print("Total city-wide trips: {}\n".format(tot_city_trips))
+    print("Total City-wide Trips: {}\n".format(tot_city_trips))
     print("Total City Trip Duration (mins. and secs.):  {}:{}\n".format(tot_dur_min,tot_dur_sec))
     print("Mean Duration Per Trip: (mins. and secs.) {}:{}\n".format(mean_dur_min,mean_dur_sec))
 
@@ -288,7 +288,7 @@ def user_stats(df, city):
 
     #Seperate handler for Birth Year due to missing data issues
     if 'Birth Year' not in df:
-        print("Sorry, {} does not have birth year data...\n".format(city))
+        print("Sorry, {} does not have Birth Year data...\n".format(city))
 
     else:
         frequent_birth = df['Birth Year'].mode()[0]
