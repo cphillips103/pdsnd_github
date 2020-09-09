@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """US Bikeshare Data analysis.
 
-This module demonstrates analysis on the US Bikeshare program. User derived
+This module demonstrates analysis on the US Bikeshare program run by Motivate. User derived
 data is anonymized.
 
 Notes:
@@ -14,7 +14,7 @@ Notes:
     Current cities available are Chicago, New York City, and Washington.
 
     Analysis currently looks at: time stats, station stats, trip duration stats,
-    and user stats where available.
+    and user stats gender and birth year where available.
 
 """
 import time
@@ -284,7 +284,7 @@ def user_stats(df, city):
         gender_count = df['Gender'].value_counts().to_string()
         gender_ratio = df['Gender'].value_counts('Female').mul(100).to_string()
         print("Summary of User Genders (count):  {}\n".format(gender_count))
-        print("Male vs Female ratio (per centage): {}\n".format(gender_ratio))
+        print("Male vs Female Ratio (per centage): {}\n".format(gender_ratio))
 
     #Seperate handler for Birth Year due to missing data issues
     if 'Birth Year' not in df:
@@ -324,7 +324,7 @@ def raw_data(df,city):
     # Continue to show additional data as requested    
     while True:
         repeat_request = input('Do you wish to see more data from {}?'\
-                              '(Y)es or (N)o to continue...\n'.format(city))
+                              '(y)es or (n)o to continue...\n'.format(city))
         if repeat_request.lower() in ['yes', 'y']:
             print(df.iloc[head_count : head_count + 5, 1:])
             head_count = head_count + 5
