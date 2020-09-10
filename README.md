@@ -3,13 +3,13 @@
 ### Bikeshare City Data Analysis Project
 *Overview:*
 
-This project is to explore data relate to the US Bikshare program run by [Motivate](https://www.motivateco.com/). Their mission is to revolutonize the landscape of cities by making them more "accessible, healthier, and sustainable."
+This project is to explore data relate to the US Bikeshare program run by [Motivate](https://www.motivateco.com/). Their mission is to revolutionize the landscape of cities by making them more "accessible, healthier, and sustainable."
 
 ### Description
 The analysis will look at three major cities and the available trip data riders take between stations. The analysis will look at rider trip information like length of trip, starting station and ending station. Other information will be used when available like rider gender and birth year.   
 
 ### Files used
-Datasets available are randomly selected from January through June of 2017. The cities include Chicago, New York City, and Washington. Information was provided in three seperate CSV file sets (See below).
+Datasets available are randomly selected from January through June of 2017. The cities include Chicago, New York City, and Washington. Information was provided in three separate CSV file sets (See below).
 
 ### Analysis Variables And Software
 Information included in files:
@@ -69,13 +69,13 @@ Mean Duration Per Trip (mins. and secs.)
 
 *User_Stats* (Where Available)
 Summary of User Genders (count)
-Male vs Female ratio (per centage)
+Male vs Female ratio (percentage)
 Most Frequently Selected Birth Year
 Oldest Selected Birth Year
 Youngest Selected Birth Year
 
 *Raw_Data*
-Provides Rows of Raw Data from city file if requested. In 5 row increments until user condtinues.
+Provides Rows of Raw Data from city file if requested. In 5 row increments until user continues.
 
 ![Image of NY City Data](https://video.udacity-data.com/topher/2018/March/5aa771dc_nyc-data/nyc-data.png)
 
