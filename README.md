@@ -26,21 +26,29 @@ Birth Year
 
 Software used:
 [Anaconda3](https://www.anaconda.com/)
+
 [Python v3.79150.1013](https://www.python.org/)
+
 [Spyder IDE v4.0.1](https://www.spyder-ide.org/)
+
 [Git Bash 2.28.01](https://git-scm.com/downloads)
+
 [Sublime Text Editor v1.0.0.1](https://www.sublimetext.com/)
 
 
 Files:
 bikeshare.py
 [chicago.csv](https://www.divvybikes.com/system-data)
+
 [new_york_city.csv](https://www.citibikenyc.com/system-data)
+
 [washington.csv](https://www.capitalbikeshare.com/system-data)
 
 Resources
 [Python documentation](https://www.python.org/doc/)
+
 [Pandas documentation](https://pandas.pydata.org/docs/)
+
 [Git Bash documentation](https://git-scm.com/doc)
 
 ### Statistics Explored
@@ -73,6 +81,8 @@ Provides Rows of Raw Data from city file if requested. In 5 row increments until
 
 ### Credits
 https://www.motivateco.com/ 
+
 https://Udacity.com
+
 https://guides.github.com/features/mastering-markdown/
 
